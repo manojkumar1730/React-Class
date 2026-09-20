@@ -1,0 +1,23 @@
+.image-gallery{
+    h1{
+        text-align: center;
+    }
+    .images{
+        margin-top: 2rem;
+        width: 90%;
+        margin: auto;
+        padding: 2rem;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3rem;
+        border-radius: 15px;
+        background-color: antiquewhite;
+        img{
+            height: 8rem;
+            border-radius: 15px;
+            border: 2px solid black;
+        }
+    }
+}

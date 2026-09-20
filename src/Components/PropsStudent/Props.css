@@ -1,0 +1,46 @@
+.all-studennt {
+    h1 {
+        display: flex;
+        justify-content: center;
+        font-family: sans-serif;
+    }
+
+    .be-student table {
+      border-color: rgb(2, 25, 73);
+      border-spacing: 1px;
+        margin: auto;
+        text-align: center;
+        border-collapse: collapse;
+        th,td{
+            padding: 5px;
+        }
+    }
+
+    .bcs-studnet {
+        margin-top: 5vh;
+    }
+
+    .bcs-studnet table {
+        border-color: rgb(2, 25, 73);
+        margin: auto;
+        text-align: center;
+        border-collapse: collapse;
+        th,td{
+            padding: 5px;
+        }
+    }
+
+    .mca-student {
+        margin-top: 5vh;
+    }
+    .mca-student table{
+         border-color: rgb(2, 25, 73);
+        margin: auto;
+        text-align: center;
+        border-collapse: collapse;
+        th,td{
+            padding: 5px;
+        }
+    }
+
+}

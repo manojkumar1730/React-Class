@@ -1,0 +1,27 @@
+.students{
+    h1{
+        text-align: center;
+        padding: 2vh 0;
+    }
+    table{
+        border: solid 1px black;
+        margin: auto;
+        width: 70%;
+        text-align: center;
+        border-collapse: collapse;
+        th,td{
+            padding: 2vh 1vw;
+        }
+
+        thead{
+            background: navy;
+            color:white;
+        }
+        
+        tbody{
+            tr:nth-child(even){
+                background-color: rgba(0, 0, 128, 0.1);
+            }
+        }
+    }
+}

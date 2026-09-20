@@ -1,0 +1,44 @@
+import React from 'react'
+
+export const BcaStudent = (props) => {
+    const bcaStudentArray = props.bcaStudent
+
+    return (
+        <>
+            <div className="bca-student">
+                <table border={1}>
+                    <thead>
+                        <th>slno</th>
+                        <th>name</th>
+                        <th>age</th>
+                        <th>place</th>
+                        <th>courser</th>
+                        <th>yop</th>
+                        <th>marks</th>
+                    </thead>
+                    <tbody>
+                        {
+                            bcaStudentArray.map((student, index) => {
+                                let { name, age, place, course, yop, marks } = student;
+                                return (
+                                    <tr key={index}>
+                                        <th>{index + 1} </th>
+                                        <td>{name}</td>
+                                        <td>{age}</td>
+                                        <td>{place}</td>
+                                        <td>{course}</td>
+                                        <td>{yop}</td>
+                                        <td>{marks}</td>
+
+                                    </tr>
+                                )
+                            })
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </>
+    )
+}
+export default BcaStudent
