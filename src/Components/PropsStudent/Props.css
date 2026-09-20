@@ -3,18 +3,28 @@
         display: flex;
         justify-content: center;
         font-family: sans-serif;
+        color: lightblue;
+        background-color: black;
     }
 
     .be-student table {
       border-color: rgb(2, 25, 73);
       border-spacing: 1px;
         margin: auto;
+        margin-top: 10px;
         text-align: center;
         border-collapse: collapse;
-        th,td{
-            padding: 5px;
-        }
+        
     }
+    th,td{
+            padding: 20px;
+        }
+        th{
+            color: blue;
+        }
+        td{
+            color: rgb(9, 61, 128);
+        }
 
     .bcs-studnet {
         margin-top: 5vh;
@@ -23,11 +33,10 @@
     .bcs-studnet table {
         border-color: rgb(2, 25, 73);
         margin: auto;
+        margin-top: 10px;
         text-align: center;
         border-collapse: collapse;
-        th,td{
-            padding: 5px;
-        }
+     
     }
 
     .mca-student {
@@ -36,11 +45,10 @@
     .mca-student table{
          border-color: rgb(2, 25, 73);
         margin: auto;
+        margin-top: 10px;
         text-align: center;
         border-collapse: collapse;
-        th,td{
-            padding: 5px;
-        }
+   
     }
 
 }
