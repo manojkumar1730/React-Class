@@ -8,6 +8,7 @@ import ReactEvents from "./Components/Events/ReactEvents"
 import StudentsList from "./Components/Students/StudentsList"
 import Parent from "./Components/Props/Parent"
 import AllStudent from "./Components/PropsStudent/AllStudent"
+import Acom from "./Components/PropsDrilling/Acom"
 
 
 
@@ -29,7 +30,8 @@ const App = () => {
       {/* <ReactEvents /> */}
       {/* <StudentsList/> */}
       {/* <Parent/> */}
-      <AllStudent/>
+      {/* <AllStudent/> */}
+      <Acom />
     </React.Fragment>
   )
 }
