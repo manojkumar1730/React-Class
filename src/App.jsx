@@ -9,6 +9,7 @@ import StudentsList from "./Components/Students/StudentsList"
 import Parent from "./Components/Props/Parent"
 import AllStudent from "./Components/PropsStudent/AllStudent"
 import Acom from "./Components/PropsDrilling/Acom"
+import Trainer from "./Components/PropsDrillingProject/Trainer"
 
 
 
@@ -31,7 +32,8 @@ const App = () => {
       {/* <StudentsList/> */}
       {/* <Parent/> */}
       {/* <AllStudent/> */}
-      <Acom />
+      {/* <Acom/> */}
+      <Trainer/>
     </React.Fragment>
   )
 }
