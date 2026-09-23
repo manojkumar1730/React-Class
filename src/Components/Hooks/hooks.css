@@ -1,0 +1,69 @@
+.hooks {
+    background-color: cornsilk;
+
+    .header {
+        background-color: lightblue;
+        color: white;
+        text-align: center;
+    }
+
+    .update-name {
+        h2 {
+            color: lightcoral;
+            text-align: center;
+        }
+
+        button {
+            color: white;
+            background-color: rgb(134, 171, 245);
+            width: 100px;
+            height: 30px;
+            display: block;
+            margin: auto;
+            margin-top: 10px;
+            border-radius: 10px;
+            border: none;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+
+        }
+
+        button:active {
+            transform: scale(.9);
+        }
+    }
+
+    .counter-app {
+        button {
+            color: white;
+            background-color: rgb(134, 171, 245);
+            width: 100px;
+            height: 30px;
+            display: block;
+            margin: 0 auto ;
+            margin-top: 10px;
+            border-radius: 10px;
+            border: none;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+
+        }
+
+        button:active {
+            transform: scale(.9);
+        }
+
+        h2 {
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    }
+
+
+}
