@@ -10,6 +10,9 @@ import Parent from "./Components/Props/Parent"
 import AllStudent from "./Components/PropsStudent/AllStudent"
 import Acom from "./Components/PropsDrilling/Acom"
 import Trainer from "./Components/PropsDrillingProject/Trainer"
+import Toggle from "./Components/Hooks/UseState/Toggle"
+import InputText from "./Components/Hooks/UseState/InputText"
+import ChangeColor from "./Components/Hooks/UseState/ChangeColor"
 
 
 
@@ -33,7 +36,15 @@ const App = () => {
       {/* <Parent/> */}
       {/* <AllStudent/> */}
       {/* <Acom/> */}
-      <Trainer/>
+      {/* <Trainer/> */}
+
+
+      {/* hooks */}
+
+      {/* <Toggle/> */}
+      {/* <InputText/> */}
+      <ChangeColor/>
+
     </React.Fragment>
   )
 }
