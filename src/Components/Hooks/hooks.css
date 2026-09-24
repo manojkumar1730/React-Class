@@ -1,5 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 .hooks {
     background-color: cornsilk;
+    height: 150px;
 
     .header {
         background-color: lightblue;
@@ -43,7 +49,7 @@
             width: 100px;
             height: 30px;
             display: block;
-            margin: 0 auto ;
+            margin: 0 auto;
             margin-top: 10px;
             border-radius: 10px;
             border: none;
@@ -65,5 +71,48 @@
         }
     }
 
+    .on-off-btn {
+        button {
+            display: block;
+            margin: 20px auto;
+            height: 30px;
+            width: 100px;
+            border-radius: 20px;
+            transition: transform 0.2s ease-in-out;
+            color: white;
+            background-color: rgb(134, 171, 245);
+        }
+
+        /* button:hover {
+                transform: scale(1.1);
+
+            } */
+
+        button:active {
+            transform: scale(.9);
+        }
+
+        .on {
+            color: green;
+            border: solid 2px green;
+            
+
+            &:hover {
+                color: white;
+                background-color: green;
+            }
+        }
+
+        .off {
+            color: red;
+            border: solid 2px red;
+
+            &:hover {
+                color: white;
+                background-color: red;
+            }
+        }
+
+    }
 
 }
