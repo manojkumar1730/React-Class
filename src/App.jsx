@@ -13,6 +13,7 @@ import Trainer from "./Components/PropsDrillingProject/Trainer"
 import Toggle from "./Components/Hooks/UseState/Toggle"
 import InputText from "./Components/Hooks/UseState/InputText"
 import ChangeColor from "./Components/Hooks/UseState/ChangeColor"
+import DayNight from "./Components/Hooks/UseState/DayNightMode/DayNight"
 
 
 
@@ -43,8 +44,8 @@ const App = () => {
 
       {/* <Toggle/> */}
       {/* <InputText/> */}
-      <ChangeColor/>
-
+      {/* <ChangeColor/> */}
+      <DayNight />
     </React.Fragment>
   )
 }

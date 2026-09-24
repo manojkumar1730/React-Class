@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.day-night {
+    h1 {
+        text-align: center;
+        color: lightseagreen;
+        padding: 6vh 0;
+    }
+
+    .open-btn {
+        width: 20%;
+        border: 1px solid black;
+        margin: auto;
+        height: 80px;
+        align-items: center;
+        border-radius: 10vh;
+            background-color: purple;
+
+        button {
+            width: 50%;
+            height: 100%;
+             transition: all .5s;
+            border-radius: 15vh;
+            border: 1px solid;
+           
+            cursor: pointer;
+        }
+
+        .right {
+            margin-left: 50%;
+        }
+    }
+
+
+}
