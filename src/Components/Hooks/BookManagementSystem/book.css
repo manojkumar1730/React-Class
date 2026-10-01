@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.book-system {
+    h1 {
+        background: linear-gradient(to right, rgb(158, 218, 237), rgb(245, 117, 146));
+        text-align: center;
+        margin-top: 5vh;
+    }
+
+    .books {
+        display: flex;
+        justify-content: space-evenly;
+
+
+        .display-book {
+            width: 100%;
+
+
+            .main {
+                height: 50vh;
+                text-align: center;
+
+                h5 {
+                    width: 50%;
+                    margin: 5vh auto;
+                    height: 5vh;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 10px;
+                    background: rgb(195, 230, 241);
+
+                }
+
+                .container {
+                    width: 90%;
+                    height: 30vh;
+                    margin-top: 10vh;
+                    margin-left: 1.5vh;
+                    background: linear-gradient(to right, rgb(5, 5, 196), rgb(167, 195, 255));
+                    border-radius: 10px;
+                    transition: all .5s;
+
+                    &:hover {
+                        transform: scale(1.1);
+                        box-shadow: 0px 0px 25px black;
+                    }
+
+                    p {
+                        width: 50px;
+                        display: inline;
+                        color: white;
+                        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+                    }
+
+
+                    h2 {
+                        padding: 5px;
+                        text-align: center;
+                        background-color: rgb(104, 186, 244);
+                        border-top-left-radius: 10px;
+                        border-top-right-radius: 10px;
+                    }
+
+                    h3 {
+                        color: white;
+                        font-size: 15px;
+                        margin-top: 5px;
+                        text-align: center;
+
+                    }
+
+                    img {
+                        width: 180px;
+                        height: 20vh;
+                        display: block;
+                        margin: 10px auto;
+                        border-radius: 10px;
+                    }
+
+
+                }
+
+                button {
+                    display: inline;
+                    margin: 4vh;
+                    background: lightblue;
+                    border: none;
+                    height: 30px;
+                    color: black;
+                    border-radius: 10%;
+                    cursor: pointer;
+                    transition: all 0.3s;
+                    &:hover {
+                        transform: scale(1.1);
+                        color:white;
+                        background-color: rgb(21, 100, 165);
+                    }
+                    &:active{
+                        transform: scale(.9);
+                }
+            }
+
+            .btn1{
+                width: 70px;
+            }
+             .btn2{
+                width: 70px;
+            }
+        }
+    }
+}
+}
