@@ -1,0 +1,184 @@
+{
+    "employee": [
+        {
+            "id": "1",
+            "name": "Arjun",
+            "course": "Java",
+            "yop": 2025,
+            "place": "Hyderabad",
+            "dob": "2000-05-12",
+            "role": "L1 Developer"
+        },
+        {
+            "id": "2",
+            "name": "Priya",
+            "course": "Python",
+            "yop": 2024,
+            "place": "Chennai",
+            "dob": "1999-11-23",
+            "role": "L2 Developer"
+        },
+        {
+            "id": "3",
+            "name": "Ramesh",
+            "course": "C++",
+            "yop": 2026,
+            "place": "Bangalore",
+            "dob": "2001-03-18",
+            "role": "L3 Developer"
+        },
+        {
+            "id": "4",
+            "name": "Sneha",
+            "course": "SQL",
+            "yop": 2025,
+            "place": "Mysore",
+            "dob": "2000-07-09",
+            "role": "Team Lead"
+        },
+        {
+            "id": "5",
+            "name": "Vikram",
+            "course": "ReactJS",
+            "yop": 2026,
+            "place": "Delhi",
+            "dob": "2002-01-15",
+            "role": "Senior Developer"
+        },
+        {
+            "id": "6",
+            "name": "Meena",
+            "course": "Angular",
+            "yop": 2024,
+            "place": "Pune",
+            "dob": "1998-09-30",
+            "role": "Architect"
+        },
+        {
+            "id": "7",
+            "name": "Kiran",
+            "course": "NodeJS",
+            "yop": 2025,
+            "place": "Goa",
+            "dob": "2001-12-05",
+            "role": "L1 Developer"
+        },
+        {
+            "id": "8",
+            "name": "Divya",
+            "course": "WebTech",
+            "yop": 2026,
+            "place": "Coimbatore",
+            "dob": "2003-02-20",
+            "role": "L2 Developer"
+        },
+        {
+            "id": "9",
+            "name": "Rahul",
+            "course": "JavaScript",
+            "yop": 2025,
+            "place": "Mumbai",
+            "dob": "2000-06-14",
+            "role": "L3 Developer"
+        },
+        {
+            "id": "10",
+            "name": "Anita",
+            "course": "Data Science",
+            "yop": 2024,
+            "place": "Kolkata",
+            "dob": "1999-10-27",
+            "role": "Team Lead"
+        },
+        {
+            "id": "11",
+            "name": "Suresh",
+            "course": "DevOps",
+            "yop": 2025,
+            "place": "Bhubaneswar",
+            "dob": "2000-08-19",
+            "role": "Senior Developer"
+        },
+        {
+            "id": "12",
+            "name": "Lakshmi",
+            "course": "AI/ML",
+            "yop": 2026,
+            "place": "Trivandrum",
+            "dob": "2002-12-01",
+            "role": "Architect"
+        },
+        {
+            "id": "13",
+            "name": "Manoj",
+            "course": "ReactJS",
+            "yop": 2025,
+            "place": "Bangalore",
+            "dob": "2001-09-15",
+            "role": "L1 Developer"
+        },
+        {
+            "id": "14",
+            "name": "Geeta",
+            "course": "Cloud Computing",
+            "yop": 2024,
+            "place": "Nagpur",
+            "dob": "1998-04-22",
+            "role": "L2 Developer"
+        },
+        {
+            "id": "15",
+            "name": "Santosh",
+            "course": "Cyber Security",
+            "yop": 2026,
+            "place": "Lucknow",
+            "dob": "2003-07-11",
+            "role": "L3 Developer"
+        },
+        {
+            "id": "16",
+            "name": "Pooja",
+            "course": "UI/UX",
+            "yop": 2025,
+            "place": "Indore",
+            "dob": "2000-02-28",
+            "role": "Team Lead"
+        },
+        {
+            "id": "17",
+            "name": "Ajay",
+            "course": "Kotlin",
+            "yop": 2024,
+            "place": "Patna",
+            "dob": "1999-06-05",
+            "role": "Senior Developer"
+        },
+        {
+            "id": "18",
+            "name": "Neha",
+            "course": "Swift",
+            "yop": 2025,
+            "place": "Jaipur",
+            "dob": "2001-01-19",
+            "role": "Architect"
+        },
+        {
+            "id": "19",
+            "name": "Ravi",
+            "course": "PHP",
+            "yop": 2026,
+            "place": "Surat",
+            "dob": "2002-10-10",
+            "role": "L1 Developer"
+        },
+        {
+            "id": "20",
+            "name": "Shalini",
+            "course": "GoLang",
+            "yop": 2025,
+            "place": "Vizag",
+            "dob": "2000-03-25",
+            "role": "Senior Developer"
+        }
+    ]
+}
