@@ -1,0 +1,69 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Arjun",
+      "dob": "2005-03-15",
+      "course": "BCA",
+      "yop": 2025,
+      "marks": 82
+    },
+    {
+      "id": "2",
+      "name": "Sneha",
+      "dob": "2004-07-10",
+      "course": "BE",
+      "yop": 2024,
+      "marks": 76
+    },
+    {
+      "id": "3",
+      "name": "Ravi",
+      "dob": "2003-11-22",
+      "course": "MCA",
+      "yop": 2023,
+      "marks": 88
+    },
+    {
+      "id": "4",
+      "name": "Priya",
+      "dob": "2006-01-05",
+      "course": "BCA",
+      "yop": 2026,
+      "marks": 91
+    },
+    {
+      "id": "5",
+      "name": "Kiran",
+      "dob": "2002-09-18",
+      "course": "BE",
+      "yop": 2022,
+      "marks": 79
+    },
+    {
+      "id": "6",
+      "name": "Meera",
+      "dob": "2005-05-25",
+      "course": "MCA",
+      "yop": 2025,
+      "marks": 85
+    },
+    {
+      "id": "7",
+      "name": "Vikram",
+      "dob": "2004-12-02",
+      "course": "BE",
+      "yop": 2024,
+      "marks": 73
+    },
+    {
+      "id": "8",
+      "name": "Anita",
+      "dob": "2003-06-30",
+      "course": "BCA",
+      "yop": 2023,
+      "marks": 89
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
