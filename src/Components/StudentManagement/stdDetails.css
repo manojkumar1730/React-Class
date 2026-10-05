@@ -1,0 +1,52 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+.student-management{
+    h1{
+        text-align: center;
+        color: lightgreen;
+    }
+    .container{
+
+        table{
+            width: 70%;
+            height: 45vh;
+            text-align: center;
+            margin: auto;
+            thead{
+                th{
+                    background-color: linear-gradient(rgb(189, 18, 18),rgb(14, 75, 198));
+                }
+            }
+
+            tbody{
+                tr{
+                    td{
+                        button{
+                            display: block;
+                            margin: auto;
+                            border: none;
+                            background: none;
+                            cursor: pointer;
+                            &:hover{
+                                color: green;
+                            }
+                            &:active{
+                                transform: scale(.9);
+                            }
+                            
+                        }
+                        .btnd{
+                               
+                                 &:hover{
+                                    color: red;
+                                    cursor: pointer;
+                                 }
+                            }
+                    }
+                }
+            }
+        }
+    }
+}

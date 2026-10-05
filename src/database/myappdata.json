@@ -64,6 +64,5 @@
       "yop": 2023,
       "marks": 89
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }
